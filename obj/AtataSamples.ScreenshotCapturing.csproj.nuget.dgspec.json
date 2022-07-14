@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Work\\Repos\\Testing\\ExtentReportsV3\\ExtentReports\\AtataSamples.ExtentReports\\AtataSamples.ScreenshotCapturing.csproj": {}
+  },
+  "projects": {
+    "D:\\Work\\Repos\\Testing\\ExtentReportsV3\\ExtentReports\\AtataSamples.ExtentReports\\AtataSamples.ScreenshotCapturing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Work\\Repos\\Testing\\ExtentReportsV3\\ExtentReports\\AtataSamples.ExtentReports\\AtataSamples.ScreenshotCapturing.csproj",
+        "projectName": "AtataSamples.ScreenshotCapturing",
+        "projectPath": "D:\\Work\\Repos\\Testing\\ExtentReportsV3\\ExtentReports\\AtataSamples.ExtentReports\\AtataSamples.ScreenshotCapturing.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\Work\\Repos\\Testing\\ExtentReportsV3\\ExtentReports\\AtataSamples.ExtentReports\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Atata": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Atata.WebDriverSetup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.2.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
